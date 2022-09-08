@@ -1,0 +1,449 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    color: #003366;
+    font-weight: 500;
+}
+
+/*header*/
+
+.nav-links {
+    width: 100%;
+}
+
+.nav-links img {
+    width: 16%;
+    margin-left: 6%;
+    margin-right: 6%;
+}
+
+.nav-links ul {
+    display: flex;
+    justify-content: center;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.nav-links li {
+    list-style: none;
+
+    padding-right: 4%;
+    padding-top: 2%;
+}
+
+.nav-links a {
+
+    color: #003366;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.nav-links #lienContacter {
+    font-weight: bold;
+    color: #89BF50;
+}
+
+.nav-links #lienContacter:hover {
+    text-decoration: underline solid #89BF50 2px;
+}
+
+.nav-links a:hover {
+    text-decoration: underline solid #003366 1px;
+}
+
+
+/*titre*/
+h1 {
+    text-align: center;
+    margin-top: 5%;
+}
+
+/*section 1*/
+
+#section1 #pourquoi {
+    display: flex;
+    margin-top: 5%;
+}
+
+#section1 #pourquoi h2 {
+    text-align: center;
+    margin-bottom: 8%;
+}
+
+#section1 #pourquoi div {
+    width: 50%;
+}
+
+#section1 #pourquoi #pourquoiTexte {
+    width: 30%;
+    line-height: 250%;
+    margin: auto
+}
+
+#section1 #pourquoi img {
+    width: 100%;
+}
+
+/*section 2*/
+
+#section2 {
+    margin-top: 7%;
+}
+
+#section2 h2 {
+    text-align: center;
+    margin-top: 8%;
+    margin-bottom: 5%;
+}
+
+#section2 #creation {
+    display: flex;
+}
+
+#section2 #creation div {
+    width: 50%;
+    text-align: center;
+}
+
+#section2 #creationPartie1 {
+    border-right: 2px solid #89BF50;
+}
+
+#section2 p {
+    line-height: 180%;
+}
+
+#section2 .texto {
+    width: 50%;
+    margin: auto;
+}
+
+#section2 .imagen img {
+    width: 50%;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+
+/*section 3*/
+
+#section3 {
+    margin-top: 7%;
+}
+
+#section3 h2 {
+    margin-bottom: 10%;
+}
+
+#section3 #proposons1 div {
+    width: 30%;
+    text-align: center;
+}
+
+#section3 #proposons1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+#section3 #proposons1Partie1 img {
+    margin-top: 16%;
+    margin-bottom: 16%;
+}
+
+#section3 .imagen3 img {
+    width: 100%;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+
+#section3 p {
+    width: 90%;
+    line-height: 200%;
+    text-align: left;
+    margin-bottom: 1%;
+}
+
+/*section 4*/
+
+#section4 h2 {
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+#section4 {
+    margin-top: 7%;
+    margin-bottom: 2%;
+}
+
+#section4 #marketing div {
+    text-align: center;
+}
+
+#section4 #marketing div p {
+    width: 30%;
+}
+
+#section4 #marketing div img {
+    width: 100%;
+}
+
+#section4 #marketingPartie1,
+#section4 #marketingPartie2 {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+#section4 #marketingPartie1 {
+    padding-bottom: 2%;
+    border-bottom: 2px solid #89BF50;
+}
+
+#section4 #marketingPartie1 p:nth-child(2),
+#section4 #marketingPartie2 p:nth-child(1),
+#section4 #marketingPartie2 p:nth-child(3) {
+    padding-top: 5%;
+
+}
+
+#section4 #marketingPartie2 {
+    padding-top: 4%;
+}
+
+/*section 5*/
+
+#section5 {
+    width: 95%;
+    margin: auto;
+    margin-top: 7%;
+}
+
+#section5 h2 {
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+#section5 img {
+    width: 520px;
+}
+
+#section5 #proposons2Partie1,
+#section5 #proposons2Partie2 {
+    display: flex;
+    justify-content: space-around;
+    padding: 1.5%;
+}
+
+#section5 h3 {
+    text-align: center;
+    padding-bottom: 4%;
+    border-left: 2px solid #89BF50;
+}
+
+#section5 #proposons2Partie1 .texto5,
+#section5 #proposons2Partie2 .texto5 {
+    display: block;
+    margin: auto;
+    width: 22%;
+    line-height: 180%;
+}
+
+/*section 6*/
+
+#section6 {
+    margin-top: 7%;
+}
+
+#section6 h2 {
+    text-align: center;
+    margin-top: 8%;
+    margin-bottom: 8%;
+}
+
+#section6 #hebergement {
+    display: flex;
+}
+
+#section6 #hebergement div {
+    width: 50%;
+    text-align: center;
+}
+
+#section6 #hebergementPartie1 {
+    border-right: 2px solid #89BF50;
+    padding-top: 1%;
+}
+
+#section6 p {
+    line-height: 210%;
+}
+
+#section6 .hebergementTexte {
+    width: 50%;
+    margin: auto;
+}
+
+#section6 .hebergementImg img {
+    width: 50%;
+    padding-top: 5%;
+}
+
+#section6 .hebergementImg img:first-child {
+    padding-top: 6%;
+    padding-bottom: 6%;
+}
+
+#section6 .hebergemenImg img {
+    width: 30%;
+    margin-bottom: 4%;
+}
+
+/*section 7*/
+
+
+#section7 {
+    margin-top: 7%;
+    margin-bottom: 3%;
+}
+
+#section7 h2 {
+    text-align: center;
+    margin-top: 8%;
+    margin-bottom: 6%;
+}
+
+#section7 #proposons3 div {
+    width: 30%;
+    text-align: center;
+}
+
+#section7 #proposons3 {
+    display: flex;
+    justify-content: space-around;
+}
+
+#section7 .imagen7 img {
+    width: 100%;
+    margin-top: 10%;
+    margin-bottom: 8%;
+}
+
+#section7 p {
+    width: 90%;
+    line-height: 230%;
+    text-align: left;
+    margin-bottom: 1%;
+}
+
+#proposons3Partie2,
+#proposons3Partie3 {
+    padding-top: 5%;
+}
+
+#proposons3Partie1,
+#proposons3Partie2 {
+    border-right: 2px solid #89BF50;
+}
+
+/*section 8*/
+
+#section8 h2 {
+    text-align: center;
+    margin-top: 6%;
+    margin-bottom: 2%;
+}
+
+#section8 aside {
+    text-align: center;
+}
+
+#tarifsChoix {
+    display: flex;
+    justify-content: center;
+    gap: 4%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+#vitrine,
+#commerce,
+#marketingD {
+    border: 1px solid #003366;
+    width: 23%;
+    border-radius: 2%;
+    box-shadow: 30px 30px 5px grey;
+}
+
+#vitrine li,
+#commerce li,
+#marketingD li {
+    list-style: none;
+    font-weight: 600;
+    text-align: left;
+    margin-left: 10%;
+    line-height: 300%;
+}
+
+#section8 h3 {
+    padding: 8% 0 8% 3%;
+}
+
+#section8 .titulo {
+    background-color: #003366;
+    color: white;
+    padding: 10%;
+    text-align: center;
+    line-height: 200%;
+    border-radius: 2%;
+}
+
+#section8 .titulo p:first-child {
+    font-size: 25px;
+    padding-bottom: 10%;
+}
+
+#section8 .centro {
+    padding: 2%;
+}
+
+#vitrine a,
+#commerce a,
+#marketingD a {
+    display: flex;
+    justify-content: right;
+    margin-top: 2%;
+    margin-right: 10%;
+    padding-bottom: 10%;
+    color: #89BF50;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+#section8 button {
+    padding: 4%;
+    font-size: 14px;
+    font-weight: 600;
+    text-shadow: 1px 1px 1px green;
+    text-transform: uppercase;
+    background-color: #89BF50;
+    border: none;
+    color: white;
+    border-radius: 12px;
+    cursor: pointer;
+    box-shadow: 0 9px #3a5d16;
+    outline: none;
+}
+
+#section8 button:hover {
+    box-shadow: 0 6px #3a5d16;
+    transform: translateY(3px);
+}
+
+#section8 button:active {
+    box-shadow: 0 2px #3a5d16;
+    transform: translateY(7px);
+}
