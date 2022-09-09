@@ -26,6 +26,32 @@
                 </ul>
             </div>
         </nav>
+
+<!----début du burger responsive---->
+        <nav role="navigation">
+            <div id="burgerResponsive">
+                <div>
+                    <img src="images/logo.png">  
+                        <div id="burgerIcon">
+                            <button id="burgerButton">
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                            </button>
+                        </div>
+                </div>
+                <div id="menuResponsive">
+                    <ul>
+                      <li><a href="#lienAccueil">ACCUEIL</a></li>
+                      <li><a href="pageServices/pageServices.html">SERVICES</a></li>
+                      <li><a href="#lienRealisations">REALISATIONS</a></li>
+                      <li><a href="#lienApropos">À PROPOS</a></li>
+                      <li><a href="#lienContact">CONTACT</a></li>
+                    </ul>
+                </div>    
+            </div>
+        </nav>
+<!----fin du burger responsive---->
     </header>
     <!--section 1-->
     <section id="section1">
@@ -114,26 +140,26 @@
             <br>Quel que soit votre secteur d’activité, il y en aura pour tous les goûts!
         </blockquote>
         <div id="reg">
-        <div id="articleReal">
-            <div id="imagesRéalisations">
-                    <img src="images/real1.jpg">
-                    <img src="images/real2.jpg">
+            <div id="articleReal">
+                <div id="imagesRéalisations">
+                        <img src="images/real1.jpg">
+                        <img src="images/real2.jpg">
+                </div>
             </div>
-        </div>
-        <div>
-            <div class="carouselReal">            
-                <div id="contenerReal">
-                    <div id="imgcarousel">                                           
-                        <figure class="imgReal"> 
-                            <img class="sliderRealisations" src="images/hotel.jpg">
-                            <img class="sliderRealisations" src="images/tourisme.jpg">
-                            <img class="sliderRealisations" src="images/entreprise.jpg">                 
-                        </figure>  
-                    </div>                      
+            <div id="carousel">
+                <div class="carouselReal">            
+                    <div id="contenerReal">
+                        <div id="imgcarousel">                                           
+                            <figure class="imgReal"> 
+                                <img class="sliderRealisations" src="images/hotel.jpg">
+                                <img class="sliderRealisations" src="images/tourisme.jpg">
+                                <img class="sliderRealisations" src="images/entreprise.jpg">                 
+                            </figure>  
+                        </div>                      
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
     </section>
     <!--footer-->
     <footer id="footer">
@@ -148,6 +174,7 @@
         <hr style="width:65%; margin:auto; padding-bottom:1%;">
     <div id="contenerUl">
         <ul>
+            <li class="liResponsive">Coordonnées</li>
             <li>
                 Winstema SAS<br>
                 35 Avenue du 8 mai<br>
@@ -165,6 +192,7 @@
             </li>
         </ul>
         <ul>
+            <li class="liResponsive">Partenaires</li>
             <li>
                 Mark et Com<br>
                 Eloise Nédelec – Conception Graphique
@@ -174,6 +202,7 @@
             </li>
         </ul>
         <ul>
+            <li class="liResponsive">Informations Légales</li>
             <li>
                 Mentions légales
             </li>
@@ -189,6 +218,7 @@
   </section>
     </footer>
 
+<script src="site.js" defer></script>
 </body>
 
 </html>
