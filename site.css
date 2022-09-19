@@ -61,10 +61,12 @@ body {
 /* section 1 */
 
 #section1 {
-    background-image: url(images/headerImg.png);
+    background-image: url(images/wallpaper1.jpg);
+    opacity: 0.8;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    border: 1px solid #003366;
+    margin: 1%;
     text-align: center;
     padding-top: 4%;
     padding-bottom: 2%;
@@ -123,7 +125,6 @@ body {
 /*section 2*/
 
 #section2 {
-    background: linear-gradient(0.25turn, rgba(168, 167, 167, 0.3), rgba(0, 0, 0, 0.3), rgba(168, 167, 167, 0.3), rgba(0, 0, 0, 0.3), rgba(168, 167, 167, 0.3));
     padding-top: 4%;
     padding-bottom: 4%;
     border: 2px solid white;
@@ -185,27 +186,33 @@ body {
 
 /*section3*/
 #section3 {
-    background-image: url(images/pave.png);
-    padding-top: 3%;
-    padding-bottom: 4%;
+    background-image: url(images/wallpaper2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.8;
+    padding-top: 2%;
+    padding-bottom: 7%;
     box-shadow: -5px 10px 20px 10px rgba(0, 0, 0, 0.3) inset;
 }
 
 #section3 h2 {
     color: #003366;
     padding-top: 5%;
-    padding-bottom: 2%;
+    padding-bottom: 4%;
     text-align: center;
     font-size: 36px;
 }
 
 #section3 blockquote {
-    width: 40%;
+    width: 50%;
     margin: auto;
     font-size: 23px;
     text-align: center;
-    padding-top: 4%;
-    padding-bottom: 6%;
+    color: #89BF50;
+    background-color:   rgba(213, 210, 210, 0.3) ;
+    padding:2%;
+    margin-bottom: 4%;
 }
 
 /***cards***/
@@ -249,11 +256,9 @@ body {
 
 #section4 {
     /*border: 4mm ridge rgba(211, 220, 50, .6);*/
-    background-image: url(images/oiseaux.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: bottom;
-    padding: 5% 25% 5% 20%;
+    border: 1px solid #003366;
+    margin:1%;
+    padding: 3% 25% 5% 20%;
     opacity: 0.8;
 }
 
@@ -266,8 +271,12 @@ body {
 
 #section4 blockquote {
     text-align: center;
-    padding-bottom: 3%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 3%;
+    border-radius: 1%;
     line-height: 200%;
+    background-color:  rgba(94, 243, 68, 0.319);
 }
 
 #carousel{
@@ -343,11 +352,11 @@ body {
     }
 
     40% {
-        left: -100%;
+        left: -101%;
     }
 
     66% {
-        left: -100%;
+        left: -101%;
     }
 
     73% {
@@ -372,17 +381,10 @@ body {
 #footer #ul1 {
     display: flex;
     list-style: none;
-    justify-content: center;
+    justify-content:space-around;
     color: #89BF50;
     font-size: 20px;
     text-shadow: 0.5px solid;
-    padding-left: 6%;
-    padding-right: 4%;
-}
-
-#footer ul:first-child li {
-    padding-left: 8%;
-    padding-right: 8%;
 }
 
 #contenerUl ul:first-child {
@@ -392,10 +394,8 @@ body {
 #contenerUl {
     display: flex;
     list-style: none;
-    justify-content: space-evenly;
-    padding-left: 18%;
-    padding-right: 18%;
     text-align: center;
+    margin-bottom: 4%;
 }
 
 #contenerUl ul {
@@ -411,11 +411,9 @@ body {
     height: 30px;
 }
 
-#footer p:last-child {
+#footer  {
     text-align: center;
-    background-image: url(images/cielBleu.jpg);
-    background-size: cover;
-    background-position: center;
+    background-color: #003366;
     color: white;
 }
 
@@ -545,6 +543,10 @@ body {
         margin-left: -140px;
     }
 
+    .carouselReal{
+        margin-left: 15%;
+    }
+    
     #footer {
         padding-top: 4%;
         padding-bottom: 1%;
